@@ -1,7 +1,10 @@
 #!/usr/bin/env ruby
 
-# Write out a WAVE file header, based on info from:
-#   http://soundfile.sapp.org/doc/WaveFormat/
+# Given a file of raw PCM audio data (sans header),
+# create the associated WAVE header and write out an 
+# entire new , valid WAVEfile (header + data).
+#
+# Based on info from http://soundfile.sapp.org/doc/WaveFormat/
 
 # You can change the following based on the raw data:
 
